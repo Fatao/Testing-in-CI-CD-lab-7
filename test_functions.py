@@ -3,7 +3,7 @@ from functions import *
 
 class TestFunctions(unittest.TestCase):
 
-    # --- 1. Отсортировать массивy ---
+    # -- 1. Отсортировать массивy --
     def test_sort_array_normal(self):
         self.assertEqual(sort_array([3,1,2]), [1,2,3])
     def test_sort_array_empty(self):

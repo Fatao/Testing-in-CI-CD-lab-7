@@ -24,6 +24,7 @@ def factorial(n):
     return result
 
 def fibonacci(n):
+
     # Верните n-ное число Фибоначчи.
     if n < 0:
         raise ValueError("Отрицательные числа не допускаются")

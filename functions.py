@@ -1,6 +1,5 @@
 import unittest
 
-
 def sort_array(arr):
     # Отсортируйте массив целых чисел.
     if arr is None:

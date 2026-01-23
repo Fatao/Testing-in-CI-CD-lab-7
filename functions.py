@@ -73,6 +73,7 @@ def to_roman(num):
             roman += syms[i]
     return roman
 
+
 # ------- СЕКЦИЯ ВВОДА ПОЛЬЗОВАТЕЛЯ --------
 if __name__ == "__main__":
     print(" Выберите функцию:")

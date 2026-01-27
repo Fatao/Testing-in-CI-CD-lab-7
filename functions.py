@@ -7,7 +7,7 @@ def sort_array(arr):
     return sorted(arr)
 
 def is_palindrome(s):
-    # Проверьте, является ли строка палиндромом.
+    # Проверьте, является ли строка палиндромом. 
     if s is None:
         raise ValueError("Входная строка не может быть равна None")
     s = s.lower()
